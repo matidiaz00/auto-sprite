@@ -1,6 +1,6 @@
 {
   "name": "auto-sprite",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Easy sprites generator",
   "main": "auto-sprite.min.js",
   "scripts": {
