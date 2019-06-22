@@ -2,7 +2,7 @@
   "name": "auto-sprite",
   "version": "0.3.0",
   "description": "Easy sprites generator",
-  "main": "auto-sprite.min.js",
+  "main": "dist/auto-sprite.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/matidiaz00/auto-sprite/issues"
   },
-  "homepage": "https://github.com/matidiaz00/auto-sprite#readme"
+  "homepage": "https://github.com/matidiaz00/auto-sprite#readme",
+  "devDependencies": {
+    "@types/node": "^12.0.10",
+    "node-sass": "^4.12.0",
+    "sprite-magic-importer": "^1.6.0",
+    "typescript": "^3.5.2"
+  }
 }

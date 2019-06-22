@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outFile": "./dist/auto-sprite.min.js",
+        "allowJs": true,
+        "target": "es5",
+        "types" : ["node"]
+    },
+    "include": [
+        "./src/index.ts"
+    ]
+}
