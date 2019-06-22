@@ -1,0 +1,25 @@
+{
+  "name": "auto-sprite",
+  "version": "0.1.0",
+  "description": "Easy sprites generator",
+  "main": "auto-sprite.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matidiaz00/auto-sprite.git"
+  },
+  "keywords": [
+    "npm",
+    "sprite",
+    "easy",
+    "generator"
+  ],
+  "author": "Matias Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matidiaz00/auto-sprite/issues"
+  },
+  "homepage": "https://github.com/matidiaz00/auto-sprite#readme"
+}
