@@ -9,6 +9,6 @@
   "author": "Matias Diaz",
   "license": "ISC",
   "devDependencies": {
-    "auto-sprite": "^0.1.0"
+    "auto-sprite": "^0.3.0"
   }
 }
