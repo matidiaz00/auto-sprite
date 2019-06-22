@@ -1,4 +1,7 @@
 /dist
+/demo/dist/sprites
+/demo/dist/demo.min.css
+/demo/demo.js
 
 # dependencies
 /node_modules
