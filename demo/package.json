@@ -1,0 +1,14 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "This is a demo",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matias Diaz",
+  "license": "ISC",
+  "devDependencies": {
+    "auto-sprite": "^0.1.0"
+  }
+}
