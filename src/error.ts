@@ -1,0 +1,1 @@
+module.exports.error = (err:string) => console.error(err);
