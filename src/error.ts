@@ -1,1 +1,3 @@
-module.exports.error = (err:string) => console.error(err);
+export function error(err:string) {
+    console.error(err)
+};
