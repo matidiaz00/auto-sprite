@@ -2,9 +2,10 @@
   "name": "demo",
   "version": "1.0.0",
   "description": "This is a demo",
-  "main": "index.html",
+  "main": "dist/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:sprites:arguments": "auto-sprite --img_input_dir=/src/icons_demo --img_output_dir=/dist/assets --css_output_file=/dist/sprites_demo",
+    "build:sprites:config": "auto-sprite --config_file=/src/sprites_demo.json"
   },
   "author": "Matias Diaz",
   "license": "ISC",

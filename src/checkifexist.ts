@@ -1,8 +1,8 @@
 import { img_input_dir, img_output_dir, css_output_file, config_file } from './variables';
 import { error } from './error';
-import fs from 'fs';
+const fs = require('fs');
 
-module.exports.checkifexist = () => {
+export function checkifexist() {
     if (config_file) {
         if (fs.existsSync(config_file)) {
             const config = JSON.parse(config_file);

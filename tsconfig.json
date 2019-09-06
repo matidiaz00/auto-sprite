@@ -1,11 +1,15 @@
 {
     "compilerOptions": {
-        "outFile": "./dist/auto-sprite.min.js",
-        "allowJs": true,
         "target": "es5",
-        "types" : ["node"]
+        "module": "commonjs",
+        "lib": ["es2017", "es7", "es6", "dom"],
+        "removeComments": true,
+        "declaration": false,
+        "outDir": "./dist",
+        "strict": true,
+        "esModuleInterop": true
     },
     "include": [
-        "./src/index.ts"
+        "./src/**.ts"
     ]
 }
