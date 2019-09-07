@@ -4,10 +4,10 @@
   "description": "Easy sprites generator",
   "main": "dist/auto-sprite.min.js",
   "scripts": {
-    "test:dev:arguments": "ts-node-dev --respawn ./src/index.ts --img_input_dir=/demo/src/icons_demo --img_output_dir=/assets --css_output_file=/sprites_demo",
-    "test:dev:config": "ts-node-dev --respawn ./src/index.ts --config_file=/demo/sprite_demo.json",
-    "test:prod:arguments": "tsc && node ./dist/index.js --img_input_dir=/demo/src/icons_demo --img_output_dir=/assets --css_output_file=/sprites_demo",
-    "test:prod:config": "tsc && node ./dist/index.js --config_file=/demo/sprite_demo.json"
+    "test:dev:arguments": "nodemon ./src/index.ts --img_input_dir=/demo/src/icons_demo --img_output_dir=/demo/dist/assets --css_output_file=/demo/dist/sprites_demo",
+    "test:dev:config": "nodemon ./src/index.ts --config_file=/demo/src/sprites_demo.json",
+    "test:prod:arguments": "tsc && node ./dist/index.js --img_input_dir=/demo/src/icons_demo --img_output_dir=/demo/dist/assets --css_output_file=/demo/dist/sprites_demo",
+    "test:prod:config": "tsc && node ./dist/index.js --config_file=/demo/src/sprites_demo.json"
   },
   "repository": {
     "type": "git",
@@ -31,8 +31,9 @@
     "minimist": "^1.2.0",
     "node-minify": "^3.6.0",
     "node-sass": "^4.12.0",
+    "nodemon": "^1.19.2",
     "sprite-magic-importer": "^1.6.0",
-    "ts-node-dev": "^1.0.0-pre.42",
+    "ts-node": "^8.3.0",
     "typescript": "^3.5.2"
   }
 }
