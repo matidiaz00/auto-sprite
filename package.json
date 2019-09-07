@@ -4,10 +4,10 @@
   "description": "Easy sprites generator",
   "main": "dist/auto-sprite.min.js",
   "scripts": {
-    "test:dev:arguments": "nodemon ./src/index.ts --img_input_dir=/demo/src/icons_demo --img_output_dir=/demo/dist/assets --css_output_file=/demo/dist/sprites_demo",
-    "test:dev:config": "nodemon ./src/index.ts --config_file=/demo/src/sprites_demo.json",
-    "test:prod:arguments": "tsc && node ./dist/index.js --img_input_dir=/demo/src/icons_demo --img_output_dir=/demo/dist/assets --css_output_file=/demo/dist/sprites_demo",
-    "test:prod:config": "tsc && node ./dist/index.js --config_file=/demo/src/sprites_demo.json"
+    "test:dev:arguments": "nodemon ./src/index.ts --img_input_dir=./demo/src/icons_demo --img_output_dir=./demo/dist/assets --css_output_file=./demo/dist/sprites_demo",
+    "test:dev:config": "nodemon ./src/index.ts --config_file=./demo/src/sprites_demo.json",
+    "test:prod:arguments": "tsc && node ./dist/index.js --img_input_dir=./demo/src/icons_demo --img_output_dir=./demo/dist/assets --css_output_file=./demo/dist/sprites_demo",
+    "test:prod:config": "tsc && node ./dist/index.js --config_file=./demo/src/sprites_demo.json"
   },
   "repository": {
     "type": "git",

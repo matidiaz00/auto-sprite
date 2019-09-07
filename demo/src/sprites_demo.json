@@ -1,0 +1,5 @@
+{
+    "img_output_dir": "./demo/dist/assets",
+    "img_input_dir": "./demo/src/icons_demo",
+    "css_output_file": "./demo/dist/sprites_demo"
+}
